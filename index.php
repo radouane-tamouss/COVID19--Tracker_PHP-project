@@ -23,12 +23,30 @@
 
 </head>
 <body>
+   
+<div class="header">
+       
+      <a href="#" class="logo">c<span class="fas fa-virus"></span>ovid-19</a>
+
+      <nav class="navbar">
+    <ul>
+       
+        <li><a href="#protect">protect</a></li>
+        <li><a href="#symtoms">symtoms</a></li>
+        <li><a href="#prevent">prevent</a></li>
+        <li><a href="#handwash">handwash</a></li>
+        <li><a href="#spread">spread</a></li>
+    </ul>
+      </nav>
+
+</div>
+    
     <div class="container-fluid bg-light p-5 text-center my-3">
         <h1>Covid-19 Tracker</h1>
-        <h5 class="text-muted">An open source project to keep track of all covid-19 cases around the world.</h5>
+        <h5 class="text-muted">to keep track of all covid-19 cases around the world.</h5>
 
     </div>
-
+    <section>
     <div class="container my-5">
         <div class="row text-center">
             <div class="col-4 text-warning">
@@ -42,11 +60,13 @@
             </div>
         </div>
     </div>
-
+    </section>
+    <section>
     <div class="container bg-light p-3 text-center">
         <h5>"prevention ins the cure."</h5>
         <p class="text-muted"> stay in dorrs stay safe.</p>
     </div>
+    </section>
 
     <div class="container-fluid">
         <table class="table">
